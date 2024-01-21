@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.body {
+  font-size: 1.3rem;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding-top: 0.5rem;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20rem;
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  grid-template-columns: 1fr;
+  background: pink;
+  padding: 1rem 0;
+  padding-bottom: 0;
+  border-top: rgb(138, 138, 138) solid 0.1rem;
+  border-bottom: rgb(138, 138, 138) solid 0.1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+p {
+  text-align: center;
+}
+
+.linkstoblog {
+  text-align: left;
+  padding-top: 10rem;
+  padding-left: 5rem;
+}
+
+.button {
+  background-color: #046c95;
+  color: #fefffe;
+  border-radius: 0.8rem;
+  padding: 0.5rem 60;
+
+  margin-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  text-align: center;
+  text-decoration: none;
+  border: none;
+
+  cursor: pointer;
+  display: block;
+}
+
+.button:hover {
+  background-color: #04516f;
+}
+
+@media screen and (min-width: 40rem) {
+  .menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
