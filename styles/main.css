@@ -4,7 +4,6 @@ body {
 
 .body {
   font-size: 1.3rem;
-  display: block;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -48,10 +47,27 @@ p {
   text-align: center;
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 50rem;
+  margin: auto;
+  background-color: rgb(234, 234, 234);
+  margin-top: 4rem;
+}
+
 .links-to-blog {
+  background: pink;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
   text-align: left;
-  padding-top: 10rem;
-  padding-left: 5rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
 }
 
 .button {
