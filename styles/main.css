@@ -30,6 +30,12 @@ body {
   width: 17.9rem;
 }
 
+.shinji-img {
+  padding-top: 60;
+  padding-left: 3rem;
+  width: 17.9rem;
+}
+
 .title {
   display: block;
   margin-left: auto;
@@ -62,13 +68,14 @@ p {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   width: 100%;
   max-width: 50rem;
   margin: auto;
   background-color: rgb(234, 234, 234);
   margin-top: 4rem;
   margin-bottom: 10rem;
+  padding: 1rem;
 }
 
 .blog-index {
@@ -89,11 +96,11 @@ main {
   padding-right: 1rem;
   padding-bottom: 1rem;
   text-align: left;
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
   margin-right: 1rem;
-  margin-bottom: 2rem;
-  border-radius: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 1.8rem;
 }
 
 .button {
@@ -122,5 +129,9 @@ main {
   .menu {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1.8rem;
   }
 }
