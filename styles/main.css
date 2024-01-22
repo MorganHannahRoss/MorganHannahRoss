@@ -23,6 +23,13 @@ body {
   width: 20rem;
 }
 
+.spirit-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 17.9rem;
+}
+
 .title {
   display: block;
   margin-left: auto;
@@ -55,7 +62,18 @@ p {
 
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 50rem;
+  margin: auto;
+  background-color: rgb(234, 234, 234);
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.blog-index {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
   max-width: 50rem;
   margin: auto;
@@ -75,6 +93,7 @@ main {
   margin-left: 2rem;
   margin-right: 1rem;
   margin-bottom: 2rem;
+  border-radius: 2rem;
 }
 
 .button {
