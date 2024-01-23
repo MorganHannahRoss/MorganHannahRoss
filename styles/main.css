@@ -69,7 +69,6 @@ p {
 main {
   display: grid;
   grid-template-columns: 1fr;
-  width: 100%;
   max-width: 50rem;
   margin: auto;
   background-color: rgb(234, 234, 234);
@@ -81,7 +80,6 @@ main {
 .blog-index {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  width: 100%;
   max-width: 50rem;
   margin: auto;
   background-color: rgb(234, 234, 234);
