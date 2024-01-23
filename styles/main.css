@@ -36,6 +36,13 @@ body {
   width: 17.9rem;
 }
 
+.eqiq {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 28rem;
+  border-radius: 3rem;
+}
 .title {
   display: block;
   margin-left: auto;
