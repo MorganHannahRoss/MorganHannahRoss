@@ -4,11 +4,8 @@ Hello! I'm Morgan Ross, a passionate developer with over 15 years of diverse ind
 
 ## Contact Information
 
-- **Email**: morganhannahross92@gmail.com
-- **Phone**: +64 22 535 7870
 - **Location**: New Zealand
 - **LinkedIn**: [/in/morganhannahross](https://linkedin.com/in/morganhannahross)
-- **GitHub**: [MorganHannahRoss](https://github.com/MorganHannahRoss)
 
 ## Technical Skills
 
