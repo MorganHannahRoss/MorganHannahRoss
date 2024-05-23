@@ -2,11 +2,6 @@
 
 Hello! I'm Morgan Ross, a passionate developer with over 15 years of diverse industry experience, ranging from insurance to telecommunications and hospitality. My enthusiasm lies in leveraging technology to solve real-world problems and continuous professional development. This portfolio showcases my technical skills, personal projects, and contributions to group projects, demonstrating my capability in full-stack web development.
 
-## Contact Information
-
-- **Location**: New Zealand
-- **LinkedIn**: [/in/morganhannahross](https://linkedin.com/in/morganhannahross)
-
 ## Technical Skills
 
 - **Frontend**: HTML, CSS, JavaScript, TypeScript, React, React Query, React Testing Library
